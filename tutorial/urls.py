@@ -28,3 +28,4 @@ urlpatterns = [
     path('snippets/', include('snippets.urls')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
+
